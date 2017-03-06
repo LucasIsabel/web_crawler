@@ -1,6 +1,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 
+
 request('http://www.imdb.com/chart/moviemeter', function(err, res, body){
   if (err) console.log('Erro: ' + err);
 
